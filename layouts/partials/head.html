@@ -1,0 +1,27 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ hugo.Generator }}
+    <title>{{ site.Title }} | {{ .Title }}</title>
+
+    {{ $normalize := resources.Get "/css/normalize.css" | minify }}
+    <link rel="stylesheet" href="{{ $normalize.RelPermalink }}">
+
+    {{ $chroma := resources.Get "/css/chroma.css" | minify }}
+    <link rel="stylesheet" href="{{ $chroma.RelPermalink }}">
+
+    {{ $fonts := resources.Get "/css/fonts.css" | minify}}
+    <link rel="stylesheet" href="{{ $fonts.RelPermalink }}">
+
+    {{ $custom := resources.Get "/css/custom.css" | minify}}
+    <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
+
+    <style>
+        body {
+          visibility: hidden;
+          opacity: 0;
+        }
+      </style>
+</head>

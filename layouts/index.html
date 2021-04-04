@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="article-container">
+<div></div>
+<div class="article-main">
+  <h1 class="article-title">{{ .Params.welcome }}</h1>
+  <div class="article-content-container">
+  {{ .Content }}
+  </div>
+</div>
+<div></div>
+</div>
+{{ end }}
