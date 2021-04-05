@@ -5,6 +5,8 @@ theme = "yBlog"
 
 commitBaseURL = "http://github.com/coderyihaowang/yblog"
 
+canonifyURLs = true
+
 pygmentsUseClasses = true
 
 enableGitInfo = true
