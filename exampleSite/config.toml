@@ -1,9 +1,9 @@
-baseURL = "http://coderyihaowang.github.io"
+baseURL = "http://coderyihaowang.github.io/yblog"
 languageCode = "en-us"
 title = "Yihao"
 theme = "yBlog"
 
-commitBaseURL = "http://"
+commitBaseURL = "http://github.com/coderyihaowang/yblog"
 
 pygmentsUseClasses = true
 
