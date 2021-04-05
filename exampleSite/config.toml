@@ -1,9 +1,9 @@
-baseURL = "http://coderyihaowang.github.io/yblog"
+baseURL = "https://coderyihaowang.github.io/yblog"
 languageCode = "en-us"
 title = "Yihao"
 theme = "yBlog"
 
-commitBaseURL = "http://github.com/coderyihaowang/yblog"
+commitBaseURL = "https://github.com/coderyihaowang/yblog"
 
 canonifyURLs = true
 
