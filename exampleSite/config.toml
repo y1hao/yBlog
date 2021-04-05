@@ -3,12 +3,8 @@ languageCode = "en-us"
 title = "Yihao"
 theme = "yBlog"
 
-commitBaseURL = "https://github.com/coderyihaowang/yblog"
-
 canonifyURLs = true
-
 pygmentsUseClasses = true
-
 enableGitInfo = true
 
 [markup.goldmark.renderer]
@@ -50,3 +46,5 @@ home = [
     "Themed with [yBlog](https://github.com/CoderYihaoWang/yBlog) &bull;",
     "Content in [GitHub](https://github.com/CoderYihaoWang/yBlog)"
   ]
+
+  commitBaseURL = "https://github.com/coderyihaowang/yblog"
