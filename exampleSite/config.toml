@@ -1,0 +1,50 @@
+baseURL = "http://coderyihaowang.github.io"
+languageCode = "en-us"
+title = "Yihao"
+theme = "yBlog"
+
+commitBaseURL = "http://"
+
+pygmentsUseClasses = true
+
+enableGitInfo = true
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[outputs]
+home = [
+  "HTML",
+  "JSON"
+]
+
+[Permalinks]
+    blog = "/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 4
+    
+[params]
+  footer = [
+    "Made with [Hugo](https://gohugo.io/) &bull;",
+    "Themed with [yBlog](https://github.com/CoderYihaoWang/yBlog) &bull;",
+    "Content in [GitHub](https://github.com/CoderYihaoWang/yBlog)"
+  ]
