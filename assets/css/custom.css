@@ -7,10 +7,10 @@
   --info-highlight: #f0f0f0;
   --err: #cc2f2f;
   --border: #ddd;
-  --font-main: "Roboto";
-  --font-mono: "JetBrains Mono";
-  --font-title: "Ubuntu";
-  --font-quote: "Lora";
+  --font-main: "Roboto", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-title: "Ubuntu", sans-serif;
+  --font-quote: "Lora", serif;
 }
 
 .dark:root {
@@ -27,7 +27,7 @@ body {
   box-sizing: border-box;
   color: var(--fg);
   background-color: var(--bg);
-  font-family: var(--font-main) sans-serif;
+  font-family: var(--font-main);
   line-height: 1.5;
   font-size: 15px;
 }
@@ -37,7 +37,7 @@ nav li {
 }
 
 code {
-  font-family: var(--font-mono) monospace;
+  font-family: var(--font-mono);
 }
 
 pre.chroma {
@@ -50,14 +50,14 @@ pre.chroma {
 }
 
 blockquote {
-  font-family: var(--font-quote) serif;
+  font-family: var(--font-quote);
   font-style: italic;
   color: var(--gray);
 }
 
 header {
   background-color: var(--bg);
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
   font-weight: bolder;
   border-bottom: 1px solid var(--border);
   z-index: 999;
@@ -129,7 +129,7 @@ header a:hover {
 .command,
 .command-input {
   font-size: 0.8em;
-  font-family: var(--font-mono) monospace;
+  font-family: var(--font-mono);
 }
 
 .command-input {
@@ -192,7 +192,7 @@ header a:hover {
 
 footer {
   color: var(--gray);
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
   border-top: 1px solid var(--border);
   margin: auto;
   padding: 2em;
@@ -257,7 +257,7 @@ footer a:active {
 .article-title,
 .list-title {
   font-weight: 500;
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
   font-size: 3em;
 }
 
@@ -267,7 +267,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
 }
 
 h1 {
@@ -319,7 +319,7 @@ a:active {
 }
 
 kbd {
-  font-family: var(--font-mono) monospace;
+  font-family: var(--font-mono);
 }
 
 table {
@@ -347,7 +347,7 @@ th {
 }
 
 .article-info-container {
-  font-family: var(--font-quote) serif;
+  font-family: var(--font-quote);
   color: var(--gray);
 }
 
@@ -360,7 +360,7 @@ th {
 }
 
 a.tag {
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
   font-size: 0.9em;
   padding: 0.2em 0.5em;
   margin: 0.2em 0.2em 0.5em 0;
@@ -384,7 +384,7 @@ a.tag.article-tag {
 }
 
 .article-footer-container {
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
   font-size: 0.9em;
   color: var(--gray);
   margin: 5em 0 0;
@@ -398,13 +398,13 @@ a.tag.article-tag {
 
 .list-count {
   color: var(--gray);
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
 }
 
 .list-time {
   color: var(--gray);
   font-size: 0.9em;
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
 }
 
 .list-item {
@@ -415,7 +415,7 @@ a.tag.article-tag {
 
 .tag-title {
   margin-top: 3em;
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
   font-size: 1.2em;
   color: var(--gray);
 }
@@ -428,7 +428,7 @@ a.tag.article-tag {
 ._404 {
   color: var(--gray);
   font-size: 5em;
-  font-family: var(--font-title) sans-serif;
+  font-family: var(--font-title);
 }
 
 @media only screen and (max-width: 767px) {
