@@ -21,9 +21,13 @@
     <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
 
     <style>
-        body {
-          visibility: hidden;
-          opacity: 0;
-        }
-      </style>
+      body {
+        visibility: hidden;
+        opacity: 0;
+      }
+    </style>
+
+    <script>
+      window.baseURL = {{ site.BaseURL }}
+    </script>
 </head>
