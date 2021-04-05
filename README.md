@@ -4,4 +4,4 @@ The theme [yBlog](https://coderyihaowang.github.io/yblog) is a [hugo](https://go
 
 **`Command Pallete`** gives you more control to the blog (hidden power!). Here, you can toggle dark mode, decide whether the top bar should be sticky, switch among tabs, searching key words in all articles (regex supported), and many more. Simply type in `help` to see the full manual.
 
-Because this theme is mainly for my personal use, pull requests will be ignored. But you are welcome to fork and modify it.
+This theme is made for my personal use, therefore pull requests will be ignored. But you are welcome to fork and modify it for your own.

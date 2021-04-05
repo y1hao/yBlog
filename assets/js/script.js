@@ -461,7 +461,7 @@ function fillBlog(list, blog) {
 
     const link = document.createElement("a");
     link.textContent = b.Title;
-    link.href = b.RelPermalink;
+    link.href = window.baseURL + b.RelPermalink;
     linkDiv.appendChild(link);
     outerDiv.appendChild(linkDiv);
 
@@ -470,7 +470,7 @@ function fillBlog(list, blog) {
       for (const tag of b.Parameters.tags) {
         const tagLink = document.createElement("a");
         tagLink.textContent = tag;
-        tagLink.href = "/tags#" + tag;
+        tagLink.href = window.baseURL + "/tags#" + tag;
         tagLink.classList.add("tag");
         tagDiv.appendChild(tagLink);
       }
