@@ -29,7 +29,7 @@ body {
   background-color: var(--bg);
   font-family: var(--font-main);
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 nav li {
