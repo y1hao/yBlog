@@ -23,3 +23,5 @@ Here is a quick demo:
 ![](./screenshots/demo.gif)
 
 This theme is made for my personal use, therefore pull requests will be ignored. But you are welcome to fork and modify it for your own.
+
+This theme was inspired by [USWDS Hugo Theme](https://github.com/zwbetz-gh/uswds-hugo-theme)
