@@ -413,6 +413,13 @@ a.tag.article-tag {
   margin: 2em;
 }
 
+.list-featured {
+  color: var(--main);
+  padding: 0 1em;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
 .tag-title {
   margin-top: 3em;
   font-family: var(--font-title);

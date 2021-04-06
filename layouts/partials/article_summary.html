@@ -5,6 +5,9 @@
   <div>
     <div>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ if .Params.featured }}
+      <span class="list-featured">featured</span>
+      {{ end }}
     </div>
     <div>
       {{ range .Params.tags }}
