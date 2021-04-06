@@ -4,21 +4,7 @@
 <p class="list-count">{{ len .Pages }} posts</p>
 <ul class="list-list" id="list">
   {{ range .Pages.ByPublishDate.Reverse }}
-  <li class="list-item">
-    <div class="list-time">
-      <span>{{ .PublishDate.Format "Jan 2, 2006" }}</span>
-    </div>
-    <div>
-      <div>
-       <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
-      </div>
-      <div>
-        {{ range .Params.tags }}
-        <a href="{{- $.Site.BaseURL -}}/tags#{{- . -}}" class="tag">{{ . }}</a>
-        {{ end }}
-      </div>
-    </div>
-  </li>
+  {{ partial "article_summary.html" . }}
   {{ end }}
 </ul>
 </div>

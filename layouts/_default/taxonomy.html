@@ -10,23 +10,11 @@
   <div>
   {{ range $name, $pages := .Site.Taxonomies.tags }}
     <div id="{{ $name }}" class="tag-title">{{ $name }}</div>
-    <div>
+    <ul class="list-list">
       {{ range $pages }}
-        <div class="list-item">
-          <div class="list-time">{{ .PublishDate.Format "Jan 2, 2006" }}</div>
-          <div>
-            <div>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </div>
-          <div>
-            {{ range .Params.tags }}
-            <a href="{{- $.Site.BaseURL -}}/tags#{{- . -}}" class="tag">{{ . }}</a>
-            {{ end }}
-          </div>
-          </div>
-        </div>
+      {{ partial "article_summary.html" . }}
       {{ end }}  
-      </div>
+    </ul>
   {{ end }}
   </div>
 </main>
